@@ -1,6 +1,6 @@
 ﻿namespace Xamp_Here
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.buttonDocRoot = new System.Windows.Forms.Button();
             this.textBoxDocRoot = new System.Windows.Forms.TextBox();
             this.groupBoxDocRoot = new System.Windows.Forms.GroupBox();
@@ -126,7 +126,7 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -135,7 +135,7 @@
             this.Controls.Add(this.groupBoxDefault);
             this.Controls.Add(this.groupBoxDocRoot);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "XAMPP Here";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxDocRoot.ResumeLayout(false);
