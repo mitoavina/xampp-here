@@ -1,6 +1,6 @@
 # XAMPP-Here
 
-**XAMPP Web Root Changer** is a tool designed to simplify the process of changing the web root directory in XAMPP without the need to manually modify settings or restart services. 
+**XAMPP-Here** is a tool designed to simplify the process of changing the web root directory in XAMPP without the need to manually modify settings or restart services. 
 
 ## Features
 
